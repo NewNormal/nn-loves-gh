@@ -3,7 +3,7 @@
 
 // Global
 $neal-link-color: rgb(251, 254, 86) !default;
-$neal-font-family: "Open Sans", "Noto Sans", "Noto Sans CJK JP", sans-serif !default;
+$neal-font-family: "Proxima Nova Lt", "Open Sans", "Noto Sans", "Noto Sans CJK JP", sans-serif !default;
 
 // Buttons
 $neal-button-ghost-enable: true !default;
@@ -16,7 +16,7 @@ $neal-input-padding-y: 1rem !default;
 
 // Colors
 $primary-color: rgb(11, 188, 214) !default;
-$accent-color: rgb(12, 72, 94) !default;
+$accent-color: #031e26 !default;
 $gray-dark: #212121 !default;
 $gray: lighten($gray-dark, 10%) !default;
 $gray-light: lighten($gray-dark, 30%) !default;

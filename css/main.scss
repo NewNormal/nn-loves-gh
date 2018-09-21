@@ -1,5 +1,10 @@
+@import "fonts_proxima_nova";
 @import "variables";
 @import "../node_modules/neal-react/css/base";
+
+body {
+  letter-spacing: 1px;
+}
 
 .neal-section {
   &.logos {
@@ -67,10 +72,21 @@
 }
 
 .team-photo {
+  background: $accent-color;
+
+  .neal-image-list {
+    margin-bottom: 0;
+  }
+
   li.neal-image-list-item {
+    padding: 0;
     img {
       max-height: none;
       width: 100%;
     }
   }
+}
+
+footer.neal-footer {
+  margin-top: 0;
 }

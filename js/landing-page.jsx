@@ -33,7 +33,7 @@ export default (props) => {
 
         <Hero backgroundImage="img/hero-background.jpg"
               className="text-xs-center">
-          <h1 className="display-5">New Normal loves GeekHub</h1>
+          <h1 className="display-5">NEW NORMAL LOVES GEEKHUB</h1>
           <p className="lead">Вітаємо у 8 сезоні! Ми раді підтримати Geekhub цього року. New Normal - це не просто бізнес, ми змінюємо простір економічних можливостей для молоді нашого міста.</p>
           <p>
             <a href="#section-strong-relation" className="btn btn-white">
@@ -70,27 +70,17 @@ export default (props) => {
         <Section className="text-center subhero mt-0 pt-5 pb-5">
           <h4>Стань частиною команди</h4>
 
-          <p>Ми завжди шукаємо талановитих людей в свою <a href="https://newnormal.agency" target="_blank">команду</a>.
+          <p>Ми завжди шукаємо талановитих людей в свою команду.
             Почни діалог сьогодні.</p>
 
           <p>Напиши <a href="mailto:alina.mukosii@newnormal.agency">alina.mukosii@newnormal.agency</a></p>
-
-          <div className="team-photo">
-            <ImageList centered>
-              <ImageListItem src="img/team-photo.jpg" />
-            </ImageList>
-          </div>
         </Section>
 
-        <Section className="team">
-          <Team>
-            <TeamMember name="Yuri Kurat" imageUrl="img/team/yuri.jpg">Founder, CEO</TeamMember>
-            <TeamMember name="Anna Upyr" imageUrl="img/team/anna.jpg">Head of Delivery, COO</TeamMember>
-            <TeamMember name="Alexander Tinyaev" imageUrl="img/team/alex.jpg">Chief Technology Officer</TeamMember>
-            <TeamMember name="Serhiy Kusyumov" imageUrl="img/team/serhii.jpeg">Chief Financial and Legal
-              Officer</TeamMember>
-          </Team>
-        </Section>
+        <div className="team-photo">
+          <ImageList centered>
+            <ImageListItem src="img/team-photo.jpg" />
+          </ImageList>
+        </div>
 
         <Footer brandName={brandName}
                 facebookUrl="https://www.facebook.com/N3wNormal/"
