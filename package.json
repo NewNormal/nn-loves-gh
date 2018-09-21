@@ -1,7 +1,7 @@
 {
-  "name": "nn-loves-gh-landing",
+  "name": "nn-loves-gh",
   "version": "0.1.0",
-  "description": "Landing page for GH 8 opening built with neal-react",
+  "description": "Landing page for GeekHub 8 opening event built with neal-react",
   "main": "js/app.js",
   "scripts": {
     "watch": "webpack --watch",

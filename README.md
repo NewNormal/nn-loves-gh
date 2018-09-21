@@ -1,15 +1,14 @@
-# neal-React Sample Page
+# NEWNORMAL LOVES GEEKHUB
 
-This is a sample page for [neal-react](http://www.github.com/dennybritz/neal-react), reactjs components for building landing pages.
-
+This is a landing page for [GeekHub 8](http://geekhub.ck.ua) opening event based on [neal-react](www.github.com/dennybritz/neal-react), reactjs components for building landing pages.
 
 ## Develop locally
 
 Transpile the Javascript using Babel and watch for changes:
 
 ```bash
-git clone https://github.com/dennybritz/neal-sample.git
-cd neal-sample
+git clone git@bitbucket.org:n3wnormal-dev/nn-loves-gh.git
+cd nn-loves-gh
 npm install
 npm run watch
 ```
