@@ -1,6 +1,6 @@
 # NEWNORMAL LOVES GEEKHUB
 
-This is a landing page for [GeekHub 8](http://geekhub.ck.ua) opening event based on [neal-react](www.github.com/dennybritz/neal-react), reactjs components for building landing pages.
+This is a landing page for [GeekHub 8](http://geekhub.ck.ua) opening event based on [neal-react](http://www.github.com/dennybritz/neal-react), reactjs components for building landing pages.
 
 ## Develop locally
 
