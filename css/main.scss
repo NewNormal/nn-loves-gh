@@ -1,0 +1,92 @@
+@import "fonts_proxima_nova";
+@import "variables";
+@import "../node_modules/neal-react/css/base";
+
+body {
+  letter-spacing: 1px;
+}
+
+.neal-section {
+  &.logos {
+    width: 100%;
+    position: absolute;
+
+    padding: 1rem 0;
+
+    background: none;
+
+    .neal-image-list {
+      margin: 0;
+    }
+
+    .neal-image-list-item {
+      border-right: 2px solid white;
+
+      img {
+        min-width: 120px;
+      }
+
+      &:last-child {
+        border: none;
+      }
+
+      padding: 0 1.5rem;
+    }
+  }
+
+  &.subhero {
+    color: #fff;
+  }
+
+  &.team {
+
+  }
+}
+
+.video-embed {
+  iframe {
+    width: 100%;
+    max-width: 560px;
+  }
+}
+
+.neal-team > .row {
+  justify-content: center;
+}
+
+.neal-team-member {
+  border: none;
+  margin-bottom: 2rem !important;
+
+  @media (max-width: 575px) {
+    max-width: 320px;
+  }
+
+  .neal-team-member-name {
+    margin-bottom: 0.25rem;
+  }
+
+  .neal-team-member-profile {
+    padding: 0.5rem 1rem;
+  }
+}
+
+.team-photo {
+  background: $accent-color;
+
+  .neal-image-list {
+    margin-bottom: 0;
+  }
+
+  li.neal-image-list-item {
+    padding: 0;
+    img {
+      max-height: none;
+      width: 100%;
+    }
+  }
+}
+
+footer.neal-footer {
+  margin-top: 0;
+}
